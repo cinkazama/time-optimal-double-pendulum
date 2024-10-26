@@ -1,9 +1,9 @@
 # time-optimal-double-pendulum
 time optimal swing-up of a double pendulum on a cart with casadi
 
-Basic code to formulate and solve a optimal control problem (OCP) by using CasADi's Pyhton API.
+Basic code to formulate and solve a optimal control problem (OCP) by using CasADi's Python API.
 Animations are created to illustrate the solution. 
-The Minimum-Time OPC is formulated as 'direct collocation'.'single shooting' and 'multiple shooting' methods were tried but did not yield satisfactory results and are therefore not concluded.
+The Minimum-Time OCP is formulated as 'direct collocation'.'single shooting' and 'multiple shooting' methods were tried but did not yield satisfactory results and are therefore not concluded.
 The 'direct collocation' example from CasADi's docs helped to build this.
 
 By running the main script 'casadi_direct_collocation' the problem is formulated and solved. Some variations are given in the code and marked as comments.
